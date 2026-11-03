@@ -28,7 +28,7 @@ object UpdateManager {
     
     // 🔴 แก้ไขชื่อผู้ใช้ GitHub และคลังเก็บไฟล์ของคุณที่นี่
     private const val GITHUB_OWNER = "sahaphumx-lab"
-    private const val GITHUB_REPO = "MCF-Updates" // ชื่อ Repo ที่ตั้งเป็น Public ไว้เก็บ APK
+    private const val GITHUB_REPO = "FlowX" // ชื่อ Repo ที่ตั้งเป็น Public ไว้เก็บ APK
 
     private var currentDownloadId: Long = -1L
     var latestVersion: String = "..." // เวอร์ชันล่าสุดจาก GitHub

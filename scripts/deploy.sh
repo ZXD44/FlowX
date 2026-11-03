@@ -79,7 +79,7 @@ case $choice in
             fi
 
             OWNER="sahaphumx-lab"
-            REPO="MCF-Updates"
+            REPO="FlowX"
             TAG_NAME="v$VERSION_NAME"
             
             echo "📤 กำลังอัปโหลด $TARGET_NAME ไปยัง GitHub..."
