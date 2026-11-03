@@ -67,7 +67,7 @@ case $choice in
         VERSION_NAME=$(grep "versionName =" app/build.gradle.kts | head -1 | awk -F'"' '{print $2}')
         [ -z "$VERSION_NAME" ] && VERSION_NAME="1.0.0"
         CUR_DATE=$(date +%Y%m%d_%H%M)
-        TARGET_NAME="FlowX_v${VERSION_NAME}_${CUR_DATE}.apk"
+        TARGET_NAME="FlowX_v${VERSION_NAME}.apk"
         
         cp app/build/outputs/apk/release/app-release.apk archive/releases/$TARGET_NAME
         echo "✅ Build สำเร็จ: $TARGET_NAME"
@@ -78,7 +78,7 @@ case $choice in
                 exit 1
             fi
 
-            OWNER="sahaphumx-lab"
+            OWNER="ZXD44"
             REPO="FlowX"
             TAG_NAME="v$VERSION_NAME"
             
