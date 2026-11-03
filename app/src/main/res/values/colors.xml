@@ -1,0 +1,38 @@
+<resources>
+    <!-- Core App Colors - Neon Theme -->
+    <color name="primary">#A855F7</color>      <!-- Neon Purple -->
+    <color name="primary_dark">#6B21A8</color> <!-- Void Purple -->
+    <color name="accent">#BEF264</color>       <!-- Neon Lime -->
+    <color name="neon_blue">#00E5FF</color>    <!-- Cyber Blue -->
+    <color name="neon_red">#EF4444</color>     <!-- Pulse Red -->
+    
+    <color name="bg_dark">#0F172A</color>
+    <color name="bg_surface">#1E293B</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    
+    <!-- Premium Overlay Colors -->
+    <color name="overlay_bg_glass">#CC0F172A</color>
+    <color name="overlay_glass_border">#33FFFFFF</color>
+    <color name="glass_card">#1AFFFFFF</color>
+    
+    <!-- App Background Gradients -->
+    <color name="color_start_grad_1">#0F172A</color>
+    <color name="color_start_grad_2">#1E1B4B</color>
+    
+    <color name="color_btn_primary">#A855F7</color>
+    <color name="text_btn_primary">#FFFFFF</color>
+
+    <!-- Standard Status -->
+    <color name="status_active">#BEF264</color>
+    <color name="status_idle">#64748B</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <color name="color_stop_grad_1">#EF4444</color>
+    <color name="color_stop_grad_2">#991B1B</color>
+    
+    <color name="glass_white">#1AFFFFFF</color>
+    <color name="glass_void">#40000000</color>
+</resources>

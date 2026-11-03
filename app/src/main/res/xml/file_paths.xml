@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- สำหรับเซฟไฟล์ APK ที่ดาวน์โหลดมาไปยัง Downloads โฟลเดอร์ของแอป -->
+    <external-files-path name="my_downloads" path="Download/" />
+    <!-- เผื่อใช้สำหรับเครื่องที่โหลดลงกล่อง Downloads ภายนอก -->
+    <external-path name="external_downloads" path="Download/" />
+    <!-- สำหรับเก็บแคช/อัปเดตชั่วคราว -->
+    <cache-path name="update_cache" path="." />
+</paths>

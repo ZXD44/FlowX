@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- Collapsed state: Small Doodle Square -->
+    <FrameLayout
+        android:id="@+id/fabCollapsed"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <!-- Icon image removed as requested -->
+    </FrameLayout>
+
+    <!-- Expanded state: Doodle Diary Page -->
+    <FrameLayout
+        android:id="@+id/panelExpanded"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="4dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Header with Drag Handle -->
+            <LinearLayout
+                android:id="@+id/dragHandle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:id="@+id/tvOverlayTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="📔 QUEST LOG"
+                    android:textColor="#1A1A1A"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace" />
+
+                <ImageView
+                    android:id="@+id/btnInfo"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:padding="4dp"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    app:tint="#1A1A1A"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <TextView
+                    android:id="@+id/btnCollapse"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:gravity="center"
+                    android:text="✕"
+                    android:textColor="#1A1A1A"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <!-- Status Indicator -->
+            <TextView
+                android:id="@+id/tvOverlayStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="● Ready to Quest"
+                android:textColor="#1A1A1A"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Control Buttons -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="12dp">
+                
+                <TextView
+                    android:id="@+id/btnOverlayStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="▶ DEPLOY"
+                    android:textColor="#1A1A1A"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:background="#FDE047"
+                    android:clickable="true"
+                    android:focusable="true" />
+                    
+                <TextView
+                    android:id="@+id/btnOverlayStop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="⏹ RECALL"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:visibility="gone"
+                    android:background="#EF4444"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </FrameLayout>
+
+            <!-- Info Panel -->
+            <LinearLayout
+                android:id="@+id/panelInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginBottom="4dp">
+                
+                <TextView
+                    android:id="@+id/btnWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:text="🌐 zirconx.my"
+                    android:textColor="#1A1A1A"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvOverlayFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="by ZirconX"
+                android:textColor="#1A1A1A"
+                android:textSize="9sp"
+                android:alpha="0.6"
+                android:fontFamily="monospace" />
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FlowX</string>
+    <string name="overlay_channel_id">overlay_channel</string>
+    <string name="overlay_channel_name">ระบบควบคุม FlowX Overlay</string>
+    <string name="capture_channel_id">capture_channel</string>
+    <string name="capture_channel_name">🛡️ ระบบวิเคราะห์หน้าจอ</string>
+    <string name="notification_bot_running">🤖 บอทกำลังทำงาน...</string>
+    <string name="notification_capture_running">📸 กำลังจับภาพหน้าจอ...</string>
+    <string name="btn_start_bot">เริ่มบอท</string>
+    <string name="btn_stop_bot">หยุดบอท</string>
+    <string name="status_idle">สถานะ: รอคำสั่ง</string>
+    <string name="status_running">สถานะ: กำลังทำงาน</string>
+    <string name="status_stopped">สถานะ: หยุดแล้ว</string>
+    <string name="permission_overlay_needed">กรุณาเปิดสิทธิ์ Overlay ก่อนใช้งาน</string>
+    <string name="permission_accessibility_needed">กรุณาเปิด Accessibility Service</string>
+</resources>

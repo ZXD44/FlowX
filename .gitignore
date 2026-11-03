@@ -1,0 +1,21 @@
+# .gitignore สำหรับโปรเจกต์ Android
+
+# Gradle & Build Files
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Local Configuration
+local.properties
+.env
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+
+# OS Generated
+.DS_Store
+Thumbs.db
