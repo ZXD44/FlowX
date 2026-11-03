@@ -171,7 +171,60 @@ FlowX/
 
 <div align="center">
 
-## 🔒 นโยบายความปลอดภัยและข้อจำกัดความรับผิดชอบ (Disclaimer)
+## ❓ คำถามที่พบบ่อย (Q&A)
 
 </div>
-โปรเจกต์นี้จัดทำขึ้นเพื่อการศึกษา วิจัยด้าน Computer Vision บนระบบปฏิบัติการ Android และการทำงานร่วมกับ Accessibility Services เท่านั้น ผู้พัฒนาไม่สนับสนุนการนำไปใช้ในทางที่ละเมิดข้อตกลงการใช้งาน (Terms of Service) ของผู้ให้บริการเกมใดๆ ทั้งสิ้น ผู้ใช้งานต้องยอมรับความเสี่ยงที่อาจเกิดขึ้นด้วยตนเอง
+
+<details>
+<summary><b>1. บอทตัวนี้ต้อง Root เครื่องหรือไม่?</b></summary>
+<br>
+ไม่ต้อง Root เครื่องครับ FlowX ทำงานผ่าน Android Accessibility Service และ MediaProjection API มาตรฐานของระบบ Android 100% ปลอดภัยต่อตัวเครื่อง
+</details>
+
+<details>
+<summary><b>2. มีการแก้ไขหรือดัดแปลงไฟล์ตัวเกม GTA หรือไม่?</b></summary>
+<br>
+ไม่มีการแก้ไขไฟล์เกม (No Mod APK / No Data Patch) ตัวบอททำงานเป็นแอปแยกอิสระในรูปแบบ HUD Overlay ลอยอยู่เหนือหน้าจอเกมเท่านั้น
+</details>
+
+<details>
+<summary><b>3. รองรับเกมและเซิร์ฟเวอร์อะไรบ้าง?</b></summary>
+<br>
+พัฒนาและปรับแต่งอัลกอริทึมการอ่านค่าสี/ตัวเลขมาเฉพาะสำหรับเซิร์ฟเวอร์ <b>GTA Morgan City</b> (<a href="https://pay-morgan.com/">pay-morgan.com</a>) บนแพลตฟอร์ม Android
+</details>
+
+<details>
+<summary><b>4. ระบบ Anti-Ban ทำงานอย่างไร?</b></summary>
+<br>
+ระบบใช้เทคนิคจำลองพฤติกรรมมนุษย์ (Humanization) โดยการสุ่มค่าตำแหน่งสัมผัส ±3 ถึง ±12 พิกเซล และสุ่มระยะเวลานิ้วแตะค้าง 40ms - 70ms ไม่ซ้ำกันในแต่ละครั้ง เพื่อป้องกันการตรวจจับรูปแบบการคลิกซ้ำซ้อน
+</details>
+
+<details>
+<summary><b>5. หากเปิดแอปแล้วหน้าต่างบอทไม่ขึ้น ต้องทำอย่างไร?</b></summary>
+<br>
+ตรวจสอบว่าได้เปิดสิทธิ์ <b>"แสดงทับแอปอื่น (Display over other apps)"</b> และ <b>"Accessibility Service"</b> ให้กับ FlowX ในการตั้งค่าของเครื่องแล้วหรือยัง
+</details>
+
+---
+
+<div align="center">
+
+## ✍️ ผู้พัฒนาและลายเซ็นดิจิทัล (Author & Signature)
+
+Developed with ❤️ by **ZXD44** (ZirconX)  
+*Next-Gen Mobile Automation & Computer Vision Engineering*
+
+[![GitHub](https://img.shields.io/badge/GitHub-ZXD44-181717?style=flat&logo=github)](https://github.com/ZXD44)
+[![Repository](https://img.shields.io/badge/Project-FlowX-blue?style=flat)](https://github.com/ZXD44/FlowX)
+
+```text
+  ███████╗██╗      ██████╗ ██╗    ██╗██╗  ██╗
+  ██╔════╝██║     ██╔═══██╗██║    ██║╚██╗██╔╝
+  █████╗  ██║     ██║   ██║██║ █╗ ██║ ╚███╔╝ 
+  ██╔══╝  ██║     ██║   ██║██║███╗██║ ██╔██╗ 
+  ██║     ███████╗╚██████╔╝╚███╔███╔╝██╔╝ ██╗
+  ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝
+              Crafted by ZXD44
+```
+
+</div>
