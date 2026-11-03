@@ -1,24 +1,50 @@
-# 🤖 FlowX
+<div align="center">
 
-> **แอปพลิเคชันระบบอัตโนมัติความแม่นยำสูงสำหรับ Android (GTA Mobile)**  
-> พัฒนาด้วย Native Kotlin, Jetpack Compose, ML Kit Computer Vision และ Android Accessibility API
+# 🤖 FlowX Mobile Macro Engine
+### บอทมาโครระบบอัตโนมัติความแม่นยำสูง สำหรับ GTA: San Andreas Mobile (SA-MP)
+**ออกแบบและรองรับเป็นพิเศษสำหรับเซิร์ฟเวอร์ GTA Morgan City ([pay-morgan.com](https://pay-morgan.com/))**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-green.svg)](https://android.com)
+[![Target Server](https://img.shields.io/badge/Target%20Server-GTA%20Morgan%20City-purple.svg)](https://pay-morgan.com/)
 [![Architecture](https://img.shields.io/badge/Architecture-arm64--v8a-blue.svg)](https://developer.android.com/ndk)
 [![Version](https://img.shields.io/badge/Version-1.2.8-orange.svg)](https://github.com/ZXD44/FlowX/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
----
-
-## 📌 บทนำและภาพรวม (Introduction)
-
-**FlowX** ถูกพัฒนาขึ้นเพื่อจำลองการสั่งงานหน้าจอของมนุษย์อย่างแม่นยำและเสถียรที่สุด สำหรับมินิเกมและระบบกิจกรรมซ้ำซ้อนในเกม GTA Mobile เช่น **ระบบขุดแร่ (Mining)** และ **ระบบตกปลา (Fishing)**
-
-ตัวแอปทำงานเป็นอิสระเหนือเกม (HUD Overlay) โดยไม่ต้องเชื่อมต่อผ่าน API ของเซิร์ฟเวอร์เกม ไม่ต้องเจาะระบบไฟล์ตัวเกม และไม่จำเป็นต้อง Root เครื่อง 
+</div>
 
 ---
+
+<div align="center">
+
+## 🎮 ข้อมูลเกมและเซิร์ฟเวอร์เป้าหมาย (Game & Server Details)
+
+| รายละเอียด | ข้อมูลที่รองรับ |
+| :--- | :--- |
+| **ตัวเกมที่รองรับ** | **GTA: San Andreas Mobile (SA-MP Android)** |
+| **เซิร์ฟเวอร์เป้าหมาย** | **GTA Morgan City** (คอมมูนิตี้และระบบ RolePlay ยอดนิยม) |
+| **เว็บไซต์หลักของเซิร์ฟ** | [https://pay-morgan.com/](https://pay-morgan.com/) |
+| **กิจกรรมที่รองรับ** | • **ระบบขุดแร่ (Mining)** — แก้โจทย์ตัวเลขมินิเกมอัตโนมัติ<br>• **ระบบตกปลา (Fishing)** — จับจังหวะทุ่นและดึงเบ็ดอัตโนมัติ |
+| **รูปแบบการทำงาน** | **HUD Overlay + Computer Vision (ML Kit)** แตะจออัตโนมัติโดยไม่ดัดแปลงไฟล์เกม ไม่ต้องรูท |
+
+</div>
+
+---
+
+<div align="center">
+
+## 📌 ภาพรวมการทำงาน (Overview)
+
+</div>
+
+**FlowX** คือแอปพลิเคชันมาโครช่วยเล่นระดับแอดวานซ์ที่พัฒนาขึ้นเพื่อเซิร์ฟเวอร์ **GTA Morgan City** โดยเฉพาะ ช่วยทุ่นแรงการทำกิจกรรมซ้ำซ้อนอย่างการขุดแร่และตกปลา โดยใช้ระบบประมวลผลภาพบนหน้าจอแบบเรียลไทม์ (Real-time Computer Vision) จับพิกัดและส่งคำสั่งสัมผัสผ่าน Android Accessibility API ทำงานเป็นเลเยอร์ลอยตัวอิสระเหนือตัวเกม ปลอดภัย ไม่ต้องแก้ไขตัวเกม (No APK Modding) และไม่ต้องเชื่อมต่อ API ภายนอกใดๆ ทั้งสิ้น 
+
+---
+
+<div align="center">
 
 ## ✨ ความสามารถหลัก (Key Features)
+
+</div>
 
 ### 1. ⛏️ โหมดขุดแร่อัจฉริยะ (Smart Mining Engine)
 - **High-Speed Minigame Solver**: ตรวจจับกล่องคำถามมินิเกมและตัวเลขเป้าหมายสีเหลือง
@@ -44,7 +70,11 @@
 
 ---
 
+<div align="center">
+
 ## 🏗️ สถาปัตยกรรมระบบ (System Architecture)
+
+</div>
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -80,7 +110,11 @@
 
 ---
 
+<div align="center">
+
 ## 📂 โครงสร้างไดเรกทอรีโปรเจกต์ (Project Structure)
+
+</div>
 
 ```text
 FlowX/
@@ -109,7 +143,11 @@ FlowX/
 
 ---
 
+<div align="center">
+
 ## 🚀 ข้อกำหนดและการติดตั้ง (Getting Started)
+
+</div>
 
 ### ความต้องการของระบบ (Prerequisites)
 1. อุปกรณ์ Android เวอร์ชั่น 8.0 (API Level 26) ขึ้นไป (แนะนำ Android 11+ เพื่อประสิทธิภาพการจับภาพหน้าจอสูงสุด)
@@ -131,5 +169,9 @@ FlowX/
 
 ---
 
+<div align="center">
+
 ## 🔒 นโยบายความปลอดภัยและข้อจำกัดความรับผิดชอบ (Disclaimer)
+
+</div>
 โปรเจกต์นี้จัดทำขึ้นเพื่อการศึกษา วิจัยด้าน Computer Vision บนระบบปฏิบัติการ Android และการทำงานร่วมกับ Accessibility Services เท่านั้น ผู้พัฒนาไม่สนับสนุนการนำไปใช้ในทางที่ละเมิดข้อตกลงการใช้งาน (Terms of Service) ของผู้ให้บริการเกมใดๆ ทั้งสิ้น ผู้ใช้งานต้องยอมรับความเสี่ยงที่อาจเกิดขึ้นด้วยตนเอง
