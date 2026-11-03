@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# MCF-ZXD44 Deployment Tool (Updated Path-Safe Version)
+# FlowX Deployment Tool (Updated Path-Safe Version)
 # รวมฟังก์ชัน Build และ Upload ไว้ในที่เดียว
 
 # ย้ายตำแหน่งไปที่ Root ของโปรเจกต์ก่อนเริ่มทำงาน
@@ -13,7 +13,7 @@ fi
 
 clear
 echo "=============================================="
-echo "      🛡️ MCF-ZXD44 DEPLOYMENT TOOL 🛡️"
+echo "          🛡️ FLOWX DEPLOYMENT TOOL 🛡️"
 echo "=============================================="
 echo "1) Build APK เท่านั้น (เก็บไว้ในเครื่อง)"
 echo "2) Build และ Upload ขึ้น GitHub (ปล่อยอัปเดต)"

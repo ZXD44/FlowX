@@ -1,6 +1,6 @@
 <resources>
     <!-- Base App Theme - Dark -->
-    <style name="Theme.MCF_ZXD44" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Theme.FlowX" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>

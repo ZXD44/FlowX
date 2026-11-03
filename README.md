@@ -1,18 +1,18 @@
-# 🤖 MCF-ZXD44 BOT-GTA
+# 🤖 FlowX
 
 > **แอปพลิเคชันระบบอัตโนมัติความแม่นยำสูงสำหรับ Android (GTA Mobile)**  
 > พัฒนาด้วย Native Kotlin, Jetpack Compose, ML Kit Computer Vision และ Android Accessibility API
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-green.svg)](https://android.com)
 [![Architecture](https://img.shields.io/badge/Architecture-arm64--v8a-blue.svg)](https://developer.android.com/ndk)
-[![Version](https://img.shields.io/badge/Version-1.2.7-orange.svg)](archive/releases/)
+[![Version](https://img.shields.io/badge/Version-1.2.8-orange.svg)](https://github.com/ZXD44/FlowX/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
 
 ## 📌 บทนำและภาพรวม (Introduction)
 
-**MCF-ZXD44** ถูกพัฒนาขึ้นเพื่อจำลองการสั่งงานหน้าจอของมนุษย์อย่างแม่นยำและเสถียรที่สุด สำหรับมินิเกมและระบบกิจกรรมซ้ำซ้อนในเกม GTA Mobile เช่น **ระบบขุดแร่ (Mining)** และ **ระบบตกปลา (Fishing)**
+**FlowX** ถูกพัฒนาขึ้นเพื่อจำลองการสั่งงานหน้าจอของมนุษย์อย่างแม่นยำและเสถียรที่สุด สำหรับมินิเกมและระบบกิจกรรมซ้ำซ้อนในเกม GTA Mobile เช่น **ระบบขุดแร่ (Mining)** และ **ระบบตกปลา (Fishing)**
 
 ตัวแอปทำงานเป็นอิสระเหนือเกม (HUD Overlay) โดยไม่ต้องเชื่อมต่อผ่าน API ของเซิร์ฟเวอร์เกม ไม่ต้องเจาะระบบไฟล์ตัวเกม และไม่จำเป็นต้อง Root เครื่อง 
 
@@ -83,7 +83,7 @@
 ## 📂 โครงสร้างไดเรกทอรีโปรเจกต์ (Project Structure)
 
 ```text
-BOT-GTA/
+FlowX/
 ├── app/                      # โค้ดโปรเจกต์ Android ทั้งหมด
 │   ├── src/main/java/com/botgta/autobot/
 │   │   ├── core/             # BotCore และวงรอบการทำงานหลัก

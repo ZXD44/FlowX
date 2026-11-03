@@ -1,11 +1,11 @@
 # 🤖 Agent System Configuration & Context Guide
 
-แฟ้มนี้สร้างขึ้นเพื่อให้ AI Agent / Developer เข้าใจบริบท กฎเกณฑ์ สถาปัตยกรรม และทักษะที่เกี่ยวข้องของโปรเจกต์ **MCF-ZXD44 BOT-GTA** ได้อย่างสมบูรณ์แบบในทันที
+แฟ้มนี้สร้างขึ้นเพื่อให้ AI Agent / Developer เข้าใจบริบท กฎเกณฑ์ สถาปัตยกรรม และทักษะที่เกี่ยวข้องของโปรเจกต์ **FlowX** ได้อย่างสมบูรณ์แบบในทันที
 
 ---
 
 ## 📌 1. บริบทของโปรเจกต์ (Project Mission & Context)
-- **ชื่อโปรเจกต์**: MCF-ZXD44 BOT-GTA (`com.botgta.autobot`)
+- **ชื่อโปรเจกต์**: FlowX (`com.botgta.autobot`)
 - **แพลตฟอร์ม**: Android Application (Kotlin, Jetpack Compose, XML ViewBinding, ML Kit, Accessibility)
 - **เป้าหมายหลัก**: เป็นแอปพลิเคชันระบบอัตโนมัติความเร็วและความแม่นยำสูง สำหรับเล่นมินิเกมและภารกิจซ้ำซ้อนในเกม GTA Mobile ผ่านหน้าต่างลอยตัว (HUD Overlay) โดยไม่ผ่าน API เซิร์ฟเวอร์เกม และไม่ต้องการสิทธิ์ Root
 

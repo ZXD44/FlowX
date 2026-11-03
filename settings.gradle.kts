@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MCF-ZXD44"
+rootProject.name = "FlowX"
 include(":app")

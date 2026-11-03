@@ -24,14 +24,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MCF_ZXD44"
+        android:theme="@style/Theme.FlowX"
         tools:targetApi="34">
 
         <activity
             android:name=".ui.LauncherActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.MCF_ZXD44"
+            android:theme="@style/Theme.FlowX"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,13 +54,13 @@
             android:name=".ui.RewardActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.MCF_ZXD44" />
+            android:theme="@style/Theme.FlowX" />
 
         <activity
             android:name=".ui.SlipVerificationActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.MCF_ZXD44" />
+            android:theme="@style/Theme.FlowX" />
 
 
         <!-- Floating Menu (Main UI Control) -->

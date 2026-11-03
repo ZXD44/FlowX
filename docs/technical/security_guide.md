@@ -1,6 +1,6 @@
 # คู่มือการป้องกันและรักษาความปลอดภัยแอป Android (Advanced Protection Guide)
 
-สำหรับโปรเจค **MCF-ZXD44** เพื่อป้องกันการแกะโค้ด (Reverse Engineering) และการแก้ไขแอป (Modding/Cracking)
+สำหรับโปรเจค **FlowX** เพื่อป้องกันการแกะโค้ด (Reverse Engineering) และการแก้ไขแอป (Modding/Cracking)
 
 ---
 

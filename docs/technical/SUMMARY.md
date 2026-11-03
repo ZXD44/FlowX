@@ -1,4 +1,4 @@
-# 🤖 MCF-ZXD44 PREMIUM: ระบบบอทอัจฉริยะ (All-in-One)
+# 🤖 FlowX: ระบบบอทอัจฉริยะ (All-in-One)
 **Version: V1.1.0 — Cyberpunk Security & Multi-Mode**
 
 เอกสารสรุปโครงการ โครงสร้างโค้ด และฟีเจอร์ความปลอดภัยทั้งหมด
